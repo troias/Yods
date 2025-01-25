@@ -19,7 +19,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <div className="mb-4 pb-4  ">
+    <div className=" ">
       <Disclosure as="nav" className="bg-gray-800">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 border-b-2 border-white-500">
           <div className="relative flex h-16 items-center justify-between ">

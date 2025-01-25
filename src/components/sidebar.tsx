@@ -61,7 +61,7 @@ export default function Sidebar() {
 
   return (
     <>
-      <div className="pt-16 ">
+      <div className="">
         <Dialog
           open={sidebarOpen}
           onClose={setSidebarOpen}
@@ -100,7 +100,7 @@ export default function Sidebar() {
         </Dialog>
 
         {/* Desktop Sidebar */}
-        <div className="hidden  lg:fixed lg:top-16 lg:left-0 lg:z-40 lg:flex lg:w-72 lg:h-full lg:flex-col bg-gray-800 mt-1">
+        <div className=" h-screen top-0 left-0 z-50 w-72 h-full flex flex-col bg-gray-800 mt-1">
           <nav className="flex-1 px-6 py-4 space-y-2 ">
             {navigation.map((item) => (
               <a
